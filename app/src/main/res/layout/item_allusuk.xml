@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_allusuk"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    app:cardBackgroundColor="#130F25"
+    app:cardCornerRadius="10dp"
+    android:layout_marginEnd="5dp"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp">
+        <ImageView
+            android:id="@+id/img_list1"
+            android:src="@drawable/let_you_love_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ten_bai_hat1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Let You Love Me"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/ten_ca_sy1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Ca sy"
+            android:textColor="#B1A5A5"
+            android:textSize="14dp" />
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
